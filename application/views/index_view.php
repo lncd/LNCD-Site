@@ -39,7 +39,7 @@
 		</div>
 		-->
 		<div class="display_box margin_top">
-			<h2><a href = "case_studies">Case Studies</a></h2>
+			<h2><a href = "projects/case_studies">Case Studies</a></h2>
 			<p>LNCD co-operates in a number of case studies and has been featured in the DEV CSI Blog. We work with numerous people and perform these studies in varied areas of research.</p>
 			<p><a href="projects/case_studies" class="button">Read More</a></p>
 		</div>
