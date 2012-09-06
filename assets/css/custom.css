@@ -171,3 +171,8 @@ a.button:visited
 	overflow: hidden;
 	position: relative
 }
+
+h3
+{
+	font-size: 16px;
+}
