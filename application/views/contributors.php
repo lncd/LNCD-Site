@@ -20,17 +20,17 @@
 			</div>
 			
 			<div class="dropdown">
-				<a class="dropdown-toggle btn"
-					data-toggle="dropdown"
-					href="#">
-					Select Department
-					<b class="caret"></b>
-				</a>
-				<ul class="dropdown-menu">
-					<?php for($i = 0; $i < count($contributors); $i++): ?>
-						<li><a href="#<?php echo str_replace(' ', '-', $contributors[$i]['department']->department_name); ?>" data-toggle="dropdown" onclick="$(this).tab('show');"><?php echo $contributors[$i]['department']->department_name; ?></a></li>
-					<?php endfor; ?>
-				</ul>
+				<ul class="nav nav-pills">
+					<li class="dropdown active">
+					<a class="dropdown-toggle" id="drop4" role="button" data-toggle="dropdown" href="#">Select Department<b class="caret"></b></a>
+					<ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+						<?php for($i = 0; $i < count($contributors); $i++): ?>
+							<li><a href="#<?php echo str_replace(' ', '-', $contributors[$i]['department']->department_name); ?>" data-toggle="dropdown" onclick="$(this).tab('show');"><?php echo $contributors[$i]['department']->department_name; ?></a>
+							</li>
+						<?php endfor; ?>
+					</ul>
+					</li>
+				 </ul>
 			</div>
 	
 			<div class="tab-content">
