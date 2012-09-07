@@ -53,7 +53,7 @@
 									<li><a href="<?php echo site_url('projects/past'); ?>">Past Projects</a></li>
 									<li><a href="<?php echo site_url('projects/case_studies'); ?>">Case Studies</a></li>
 									<li><a href="<?php echo site_url('contributors'); ?>">Contributors</a></li>
-									<li><a href="<?php echo site_url('blog'); ?>">LNCD Blog</a></li>
+									<li><a href="http://blog.lncd.org>LNCD Blog</a></li>
 								</ul>
 
 							</div>

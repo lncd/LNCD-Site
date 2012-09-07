@@ -13,16 +13,16 @@
 		</div>
 		
 		<div class="display_box">
-			<h2><a href = "projects">Current Projects</a></h2>
+			<h2>Current Projects</h2>
 			<p>LNCD always has a number of projects running, many of which are externally funded through government grants and in partnership with other universities and industry. We welcome further collaboration.</p>
-			<p><a class="button" href="projects">Read More</a></p>
+			<p><a class="btn" href="<?php echo site_url('projects'); ?>">Read More</a></p>
 		</div>
 
 		<div class="display_box">
-			<h2><a href = "projects/past">Past Projects</a></h2>
+			<h2>Past Projects</h2>
 			<p>We’ve worked on an institution-wide space-time service, released an entire course as Open Educational Resources, implemented a cutting-edge datastore, prototyped a semantic publishing platform for document discussion, created a modern single-sign-on system for the university and built tools that make our own work easier to deliver benefits to everyone. We value good design and good data. Many of our projects have been externally funded by JISC, ensuring that we deliver benefits to the university sector too.
 			</p>
-			<p><a class="button" href="projects/past">Read More</a></p>
+			<p><a class="btn" href="<?php echo site_url('projects/past'); ?>">Read More</a></p>
 		</div>
 	
 	</div>
@@ -39,14 +39,14 @@
 		</div>
 		-->
 		<div class="display_box margin_top">
-			<h2><a href = "projects/case_studies">Case Studies</a></h2>
+			<h2>Case Studies</h2>
 			<p>LNCD's imaginative approach has been the subject of three case studies on the subjects of openness and student engagement, the value of in-house developers and our deployment of the 'Common Web Design', a HTML5 presentation framework.</p>
-			<p><a href="projects/case_studies" class="button">Read More</a></p>
+			<p><a href="<?php echo site_url('projects/case_studies'); ?>" class="btn">Read More</a></p>
 		</div>
 		<div class="display_box">
-			<h2><a href = "contributors">Contributors</a></h2>
+			<h2>Contributors</h2>
 			<p>LNCD is a distributed group comprised of a number of staff and students from across the University of Lincoln. The work of the group is co-ordinated by Joss Winn, working in the Centre for Educational Research and Development, and core contributors of the group currently work in CERD, ICT Services and the Library. Contributors also come from a range of backgrounds, such as Academics, Researchers, Developers and more.</p>
-			<p><a href="contributors" class="button">Read More</a></p>
+			<p><a href="<?php echo site_url('contributors'); ?>" class="btn">Read More</a></p>
 		</div>
 		<div class="display_box">
 			<h2>Services</h2>
@@ -54,9 +54,9 @@
 		</div>
 		<div class="display_box">
 			<h2>Contact</h2>
-			<p>LNCD is co-ordinated by <a title="Joss' blog" href="http://phone.online.lincoln.ac.uk/jwinn">Joss Winn</a> in the Centre for Educational Research and Development,&nbsp;University of Lincoln. LN6 7TS. Telephone 01522-886075.</p>
+			<p>LNCD is co-ordinated by <a title="Joss' blog" href="http://phone.online.lincoln.ac.uk/jwinn">Joss Winn</a> in the Centre for Educational Research and Development,&nbsp;University of Lincoln. LN6 7TS. Telephone 01522 886075.</p>
 			<p>Want to get in touch?&nbsp;<a href="http://twitter.com/lncd">@lncd</a>&nbsp;|&nbsp;<a href="mailto:lncd@lincoln.ac.uk">lncd@</a></p>
-			<p><iframe width='425' height='334px' frameBorder='0' src='http://a.tiles.mapbox.com/v3/jacksonj04.map-0vareqkt.html#17/53.22975/-0.550460272903412'></iframe><br>
+			<p><iframe style="width:100%;height:300px;"  frameBorder='0' src='http://a.tiles.mapbox.com/v3/jacksonj04.map-0vareqkt.html#17/53.22975/-0.550460272903412'></iframe><br>
 			<small><a style="color: #0000ff; text-align: left;" href="http://maps.google.com/maps?q=http:%2F%2Flncn.eu%2Ffmt&amp;ie=UTF8&amp;vpsrc=0&amp;ll=53.228541,-0.549766&amp;spn=0.004628,0.012784&amp;source=embed">View Larger Map</a></small></p>
 		</div>
 	</div>
