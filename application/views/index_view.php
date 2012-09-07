@@ -14,7 +14,7 @@
 		
 		<div class="display_box">
 			<h2><a href = "projects">Current Projects</a></h2>
-			<p>LNCD has a number of projects running. We often take on new projects and are often funded externally. Working with larger organisations in partnerships and in collaboration with other projects is common. Here are a list of all projects currently being worked on within the group.</p>
+			<p>LNCD always has a number of projects running, many of which are externally funded through government grants and in partnership with other universities and industry. We welcome further collaboration.</p>
 			<p><a class="button" href="projects">Read More</a></p>
 		</div>
 
@@ -40,7 +40,7 @@
 		-->
 		<div class="display_box margin_top">
 			<h2><a href = "projects/case_studies">Case Studies</a></h2>
-			<p>LNCD co-operates in a number of case studies and has been featured in the DEV CSI Blog. We work with numerous people and perform these studies in varied areas of research.</p>
+			<p>LNCD's imaginative approach has been the subject of three case studies on the subjects of openness and student engagement, the value of in-house developers and our deployment of the 'Common Web Design', a HTML5 presentation framework.</p>
 			<p><a href="projects/case_studies" class="button">Read More</a></p>
 		</div>
 		<div class="display_box">
@@ -50,7 +50,7 @@
 		</div>
 		<div class="display_box">
 			<h2>Contact</h2>
-			<p>LNCD is co-ordinated by <a title="Joss' blog" href="http://joss.blogs.lincoln.ac.uk">Joss Winn</a> in the Centre for Educational Research and Development,&nbsp;University of Lincoln. LN6 7TS. Telephone 01522-886075.</p>
+			<p>LNCD is co-ordinated by <a title="Joss' blog" href="http://phone.online.lincoln.ac.uk/jwinn">Joss Winn</a> in the Centre for Educational Research and Development,&nbsp;University of Lincoln. LN6 7TS. Telephone 01522-886075.</p>
 			<p>Want to get in touch?&nbsp;<a href="http://twitter.com/lncd">@lncd</a>&nbsp;|&nbsp;<a href="mailto:lncd@lincoln.ac.uk">lncd@</a></p>
 			<p><iframe width='425' height='334px' frameBorder='0' src='http://a.tiles.mapbox.com/v3/jacksonj04.map-0vareqkt.html#17/53.22975/-0.550460272903412'></iframe><br>
 			<small><a style="color: #0000ff; text-align: left;" href="http://maps.google.com/maps?q=http:%2F%2Flncn.eu%2Ffmt&amp;ie=UTF8&amp;vpsrc=0&amp;ll=53.228541,-0.549766&amp;spn=0.004628,0.012784&amp;source=embed">View Larger Map</a></small></p>
