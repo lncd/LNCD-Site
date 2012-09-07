@@ -21,7 +21,7 @@
 			
 			<ul class="nav nav-pills">
 				<li class="dropdown">
-					<a class="dropdown-toggle"
+					<a class="dropdown-toggle button"
 						data-toggle="dropdown"
 						href="#">
 						Select Department
