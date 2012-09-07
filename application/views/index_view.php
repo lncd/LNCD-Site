@@ -49,6 +49,10 @@
 			<p><a href="contributors" class="button">Read More</a></p>
 		</div>
 		<div class="display_box">
+			<h2>Services</h2>
+			<p>We work on the web. If you're looking for advice about cloud computing, data-driven web design, mobile computing, access and identity, personalised web services, data archiving, web content management, open source software development, continuous integration, the open web, and software craftsmanship, we may be able to help. We welcome consultancy opportunities, R&D partnerships and knowledge transfer opportunities. We get stuff done.</p>
+		</div>
+		<div class="display_box">
 			<h2>Contact</h2>
 			<p>LNCD is co-ordinated by <a title="Joss' blog" href="http://phone.online.lincoln.ac.uk/jwinn">Joss Winn</a> in the Centre for Educational Research and Development,&nbsp;University of Lincoln. LN6 7TS. Telephone 01522-886075.</p>
 			<p>Want to get in touch?&nbsp;<a href="http://twitter.com/lncd">@lncd</a>&nbsp;|&nbsp;<a href="mailto:lncd@lincoln.ac.uk">lncd@</a></p>
