@@ -19,28 +19,24 @@
 				<h1>Contributors</h1>
 			</div>
 			
-			<ul class="nav nav-pills">
-				<li class="dropdown">
-					<a class="dropdown-toggle button"
-						data-toggle="dropdown"
-						href="#">
-						Select Department
-						<b class="caret"></b>
-					</a>
-					<ul class="dropdown-menu">
-						<?php for($i = 0; $i < count($contributors); $i++): ?>
-							<?php if($i === 0): ?>
-								<li class="active">
-							<?php else: ?>
-							<li>
-							<?php endif;?>
-							<a href="#<?php echo str_replace(' ', '-', $contributors[$i]['department']->department_name); ?>" data-toggle="tab"><?php echo $contributors[$i]['department']->department_name; ?></a></li>
-						<?php endfor; ?>
-					</ul>
-				</li>
-  			</ul>
-			
-	
+			<div class="dropdown">
+				<a class="dropdown-toggle btn btn-primary"
+					data-toggle="dropdown"
+					href="#">
+					Select Department
+					<b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu">
+					<?php for($i = 0; $i < count($contributors); $i++): ?>
+						<?php if($i === 0): ?>
+							<li class="active">
+						<?php else: ?>
+						<li>
+						<?php endif;?>
+						<a href="#<?php echo str_replace(' ', '-', $contributors[$i]['department']->department_name); ?>" data-toggle="tab"><?php echo $contributors[$i]['department']->department_name; ?></a></li>
+					<?php endfor; ?>
+				</ul>
+			</div>
 	
 			<div class="tab-content">
 			
