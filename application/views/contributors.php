@@ -33,7 +33,7 @@
 						<?php else: ?>
 						<li>
 						<?php endif;?>
-						<a href="#<?php echo str_replace(' ', '-', $contributors[$i]['department']->department_name); ?>" data-toggle="dropdown tab"><?php echo $contributors[$i]['department']->department_name; ?></a></li>
+						<a href="#<?php echo str_replace(' ', '-', $contributors[$i]['department']->department_name); ?>" data-toggle="tab"><?php echo $contributors[$i]['department']->department_name; ?></a></li>
 					<?php endfor; ?>
 				</ul>
 			</div>
