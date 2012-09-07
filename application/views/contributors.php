@@ -28,12 +28,7 @@
 				</a>
 				<ul class="dropdown-menu">
 					<?php for($i = 0; $i < count($contributors); $i++): ?>
-						<?php if($i === 0): ?>
-							<li class="active">
-						<?php else: ?>
-						<li>
-						<?php endif;?>
-						<a href="#<?php echo str_replace(' ', '-', $contributors[$i]['department']->department_name); ?>" data-toggle="dropdown"><?php echo $contributors[$i]['department']->department_name; ?></a></li>
+						<li><a href="#<?php echo str_replace(' ', '-', $contributors[$i]['department']->department_name); ?>" data-toggle="dropdown" onclick="$('this').tab('show');"><?php echo $contributors[$i]['department']->department_name; ?></a></li>
 					<?php endfor; ?>
 				</ul>
 			</div>
