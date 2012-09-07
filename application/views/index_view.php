@@ -56,7 +56,7 @@
 			<h2>Contact</h2>
 			<p>LNCD is co-ordinated by <a title="Joss' blog" href="http://phone.online.lincoln.ac.uk/jwinn">Joss Winn</a> in the Centre for Educational Research and Development,&nbsp;University of Lincoln. LN6 7TS. Telephone 01522 886075.</p>
 			<p>Want to get in touch?&nbsp;<a href="http://twitter.com/lncd">@lncd</a>&nbsp;|&nbsp;<a href="mailto:lncd@lincoln.ac.uk">lncd@</a></p>
-			<p><iframe style="width:100%;height:300px;"  frameBorder='0' src='http://a.tiles.mapbox.com/v3/jacksonj04.map-0vareqkt.html#17/53.22975/-0.550460272903412'></iframe><br>
+			<p><iframe style="width:100%;height:300px;" frameBorder='0' src='http://a.tiles.mapbox.com/v3/jacksonj04.map-0vareqkt.html#17/53.22975/-0.550460272903412'></iframe><br>
 			<small><a style="color: #0000ff; text-align: left;" href="http://maps.google.com/maps?q=http:%2F%2Flncn.eu%2Ffmt&amp;ie=UTF8&amp;vpsrc=0&amp;ll=53.228541,-0.549766&amp;spn=0.004628,0.012784&amp;source=embed">View Larger Map</a></small></p>
 		</div>
 	</div>
