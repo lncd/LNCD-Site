@@ -45,7 +45,7 @@
 			</div>
 			
 			<div>
-				<a href="<?php echo base_url() . "project/" . $a_project->id;?>" class="btn"><i class="icon-chevron-right"></i> Read More</a>
+				<a href="<?php echo base_url() . "project/" . $a_project->id;?>" class="btn btn-small"><i class="icon-chevron-right"></i> Read More</a>
 			</div>
 			
 			</div>
