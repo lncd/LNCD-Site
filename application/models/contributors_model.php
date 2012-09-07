@@ -17,9 +17,10 @@ class contributors_model extends CI_Model
     	
     	foreach($departments_query->result() as $result)
     	{
-	    	$people_query = $this->db->select()
-	    								->where('department_id', $result->id)
-	    								->get('contributors');
+	    	$people_query = $this->db
+	    							->select()
+	    							->where('department_id', $result->id)
+	    							->get('contributors');
 	    	
 	    	$returning[] = array('department' => $result, 'people' => $people_query->result());
     	}
