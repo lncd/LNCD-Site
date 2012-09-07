@@ -19,11 +19,9 @@ class Blog extends CI_Controller {
 	 */
 	public function index()
 	{
-		$output = $this->load->view('header_view', '', TRUE);
-		$output.= $this->load->view('blog', '', TRUE);
-		$output.= $this->load->view('footer_view', '', TRUE);
-			
-		$this->output->set_output($output);
+		$this->load->view('header_view');
+		$this->load->view('blog');
+		$this->load->view('footer_view');
 	}
 }
 

@@ -20,11 +20,9 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$this->load->model('contributors_model');
-		$output = $this->load->view('header_view', '', TRUE);
-		$output.= $this->load->view('index_view', '', TRUE);
-		$output.= $this->load->view('footer_view', '', TRUE);
-			
-		$this->output->set_output($output);
+		$this->load->view('header_view');
+		$this->load->view('index_view');
+		$this->load->view('footer_view');
 	}
 }
 

@@ -19,11 +19,9 @@ class Funding extends CI_Controller {
 	 */
 	public function index()
 	{
-		$output = $this->load->view('header_view', '', TRUE);
-		$output.= $this->load->view('funding', '', TRUE);
-		$output.= $this->load->view('footer_view', '', TRUE);
-			
-		$this->output->set_output($output);
+		$this->load->view('header_view');
+		$this->load->view('funding');
+		$this->load->view('footer_view');
 	}
 }
 

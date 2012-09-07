@@ -19,11 +19,9 @@ class Calendar extends CI_Controller {
 	 */
 	public function index()
 	{
-		$output = $this->load->view('header_view', '', TRUE);
-		$output.= $this->load->view('google_calendar', '', TRUE);
-		$output.= $this->load->view('footer_view', '', TRUE);
-			
-		$this->output->set_output($output);
+		$this->load->view('header_view');
+		$this->load->view('google_calendar');
+		$this->load->view('footer_view');
 	}
 }
 
