@@ -2,13 +2,8 @@
 	<div class="span6">
 		<div class="display_box margin_top">
 			<h2>What is LNCD?</h2>
-			<p>LNCD is a progressive group that includes educational developers, technologists, teachers, researchers and students, and was set up to support the objectives of <a href = "http://studentasproducer.lincoln.ac.uk">Student as Producer</a> through the research and 
-			development of technology for education. The work of LNCD is informed by the progressive pedagogy of Student as Producer so as to engender critical, digitally literate staff and students. Core principles of 
-			the group are that we recognise students and staff have much to learn from each other and that students can be agents of change in the use of technology for education. LNCD consolidates and furthers on-going 
-			collaborative work between the Centre for Educational Research and Development, The Library and ICT Services and extends an open invitation to staff and students from across the university to contribute to 
-			the group.</p>
-			<p>LNCD offers incentives to people who wish to contribute to the rapid innovation of appropriate technology for education at the university, through work-experience, research bursaries and assistance with
-			 internal and external applications for funding. We also provide advice and support for the use of technology in research, teaching and learning.</p>
+			<p>LNCD was set up to support the objectives of <a href = "http://studentasproducer.lincoln.ac.uk">Student as Producer</a> through the research and development of technology for education. The work of LNCD is informed by the progressive pedagogy of Student as Producer so as to engender critical, digitally literate staff and students. Core principles of the group are that we recognise students and staff have much to learn from each other and that students can be agents of change in the use of technology for education. LNCD consolidates and furthers on-going collaborative work between the Centre for Educational Research and Development, The Library and ICT Services and extends an open invitation to staff and students from across the university to contribute to the group.</p>
+			<p>LNCD offers incentives to people who wish to contribute to the rapid innovation of appropriate technology for education at the university, through work-experience, research bursaries and assistance with internal and external applications for funding. We also provide advice and support for the use of technology in research, teaching and learning.</p>
 			<p>LNCD is Not a Central Development group!</p>
 		</div>
 		
