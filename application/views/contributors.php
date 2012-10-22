@@ -51,19 +51,19 @@
 						<p><?php echo $person->blurb; ?></p>
 						<ul class="nav nav-pills">
 							<?php if($person->staff_page): ?>
-							<li><a href="<?php echo $person->staff_page; ?>">Staff Page</a></li>
+							<li><a href="<?php echo $person->staff_page; ?>"><i class="icon-user"></i> Staff Page</a></li>
 							<?php endif;?>
 							<?php if($person->email): ?>
-							<li><a href="mailto:<?php echo $person->email; ?>"><?php echo $person->email; ?></a></li>
+							<li><a href="mailto:<?php echo $person->email; ?>"><i class="icon-envelope"></i> <?php echo $person->email; ?></a></li>
 							<?php endif;?>
 							<?php if($person->tel): ?>
-							<li><a href="tel:<?php echo trim(str_replace(' ', '', $person->tel)); ?>"><?php echo $person->tel; ?></a></li>
+							<li><a href="tel:<?php echo trim(str_replace(' ', '', $person->tel)); ?>"><i class="icon-phone"></i> <?php echo $person->tel; ?></a></li>
 							<?php endif;?>
 							<?php if($person->twitter): ?>
-							<li><a href="http://twitter.com/<?php echo $person->twitter; ?>">@<?php echo $person->twitter; ?></a></li>
+							<li><a href="http://twitter.com/<?php echo $person->twitter; ?>"><i class="icon-twitter"></i> @<?php echo $person->twitter; ?></a></li>
 							<?php endif;?>
 							<?php if($person->blog_url): ?>
-							<li><a href="<?php echo $person->blog_url; ?>">Blog</a></li>
+							<li><a href="<?php echo $person->blog_url; ?>"><i class="icon-pencil"></i> Blog</a></li>
 							<?php endif;?>
 						</ul>
 					</div>
