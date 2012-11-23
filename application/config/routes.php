@@ -41,6 +41,7 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = 'error_page';
 $route["project/(:any)"] = "projects/specific/$1";
+$route["projects/(:any)"] = "projects/specific/$1";
 
 
 /* End of file routes.php */
