@@ -3,7 +3,7 @@
  	<ul class="breadcrumb">
         <li><a href="<?php echo base_url(); ?>">Home</a> <span class="divider">/</span></li>
         <li><a href="<?php echo base_url(); ?>projects">Projects</a> <span class="divider">/</span></li>
-        <?php if(isset($project) AND $project > 0) { ?>
+        <?php if(isset($project) AND count($project) > 0) { ?>
         <li class="active"><?php echo $project[0]->project_name;?></li>
         <?php } ?>
 	</ul>
