@@ -27,8 +27,7 @@
 </div>
 	
 <div class="row">
-        <?php if(isset($projects) AND count($projects) > 0) {
-        
+	<?php
 		$count = 0; 
 		foreach($projects as $a_project): 
 	?>
@@ -58,6 +57,6 @@
 	<?php endif; ?>
 	
 	<?php $count++; ?>
-	<?php endforeach; } ?>
+	<?php endforeach; ?>
 	</div>
 </div>
