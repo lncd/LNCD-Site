@@ -11,6 +11,7 @@ class projects_model extends CI_Model
     public function get_current_projects()
     {
     	$query = $this->db->where('active', 1)
+                            ->where('case_study', 0)
     						->order_by('project_name')
     						->get('projects');
     	
@@ -20,6 +21,7 @@ class projects_model extends CI_Model
     public function get_past_projects()
     {
 	    $query = $this->db->where('active', 0)
+                            ->where('case_study', 0)
     						->order_by('project_name')
     						->get('projects');
     	
